@@ -1,0 +1,48 @@
+        body {
+            background-image: url("arcade-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: Consolas, serif;
+            text-shadow: 2px 2px 5px black;
+        }
+		
+        .user-window {
+            color: white;
+            background-color: blue;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px 5px 5px 5px;
+            height: 50px;
+            width: fit-content;
+            overflow: hidden;
+            
+        }
+
+        .navbar {
+            text-shadow: 1px 1px 2px black;
+            background-color: blue;
+            overflow: hidden;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left:0;
+        }
+        .navbar a {
+            color: red;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+        }
+        .navbar a:hover {
+            background-color: lightskyblue;
+            color: red;
+        }
+        .navbar a.active {
+            background-color: blue;
+            color: rgb(149, 0, 255);
+        }
