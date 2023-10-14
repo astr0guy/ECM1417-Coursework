@@ -1,31 +1,19 @@
-Index Page
-ecm1417@ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:50232/index.php
-
-Features:
+Index Page Features:
 -Navbar
 -User window
 -Adapts to session data
 -User window for username and avatar
 
-Registration Page (Complex)
-ecm1417@ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:50232/registration.php
-
-Features:
+Registration Page Features:
 -Input validation
 -Emoji avatar designer
 
-Leaderboard Page (Complex)
-ecm1417@ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:50232/leaderboard.php
-
-Features:
+Leaderboard Page Features:
 -Reads .json files for table data, or creates them if none exist
 -Tables for top 5 scores overall
 -Tables for top 5 scores per level
 
-Pairs Game Page (Complex)
-ecm1417@ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:50232/pairs.php
-
-Features:
+Pairs Game Page Features:
 -Redirects to registration.php when not using a registered session
 -6 levels, each increasing in difficulty
 -A high score system, turning the main div gold when surpassed
